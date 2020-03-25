@@ -3,14 +3,16 @@
 <head>
   <meta charset="utf-8">
   <title>Events Calendar</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>November, 1963</h1>
   <div class="wrapper">
-    <table>
+    <table class="gutter-1-4 pad-t pad-b-2">
+      <caption class="giga pad-t pad-b text-center">November, 1963</caption>
       <thead>
         <tr>
           <th scope="col">Sun</th>
@@ -21,14 +23,16 @@
           <th scope="col">Fri</th>
           <th scope="col">Sat</th>
         </tr>
+      </thead>
 
+      <tbody>
         <tr>
           <td colspan="6">
             <div class="day bold mega text push-1-4 text-right">1</div>
           </td>
-            <td>
-              <div class="day bold mega text push-1-4 text-right">2</div>
-            </td>
+          <td>
+            <div class="day bold mega text push-1-4 text-right">2</div>
+          </td>
         </tr>
 
         <tr>
@@ -63,7 +67,7 @@
           <td>
             <div class="day bold mega text push-1-4 text-right">11</div>
             <div>
-              <ul>
+              <ul class="list-group">
                 <li class="red gutter-1-4 pad-t-8 pad-b-1-8 push-1-4">Remembrance Day</li>
                 <li class="grey gutter-1-4 pad-t-8 pad-b-1-8 push-1-4">Kosmos 21 failed to escape orbit</li>
               </ul>
@@ -81,10 +85,10 @@
           <td>
             <div class="day bold mega text push-1-4 text-right">15</div>
             <div>
-            <ul>
-              <li class="green gutter-1-4 pad-t-8 pad-b-1-8 push-1-4">Surtsey Island created</li>
-              <li class="green gutter-1-4 pad-t-8 pad-b-1-8 push-1-4">Robert W. Smith set altitude record</li>
-            </ul>
+              <ul class="list-group">
+                <li class="green gutter-1-4 pad-t-8 pad-b-1-8 push-1-4">Surtsey Island created</li>
+                <li class="green gutter-1-4 pad-t-8 pad-b-1-8 push-1-4">Robert W. Smith set altitude record</li>
+              </ul>
             </div>
           </td>
           <td>
@@ -143,9 +147,7 @@
             <div class="day bold mega text push-1-4 text-right">30</div>
           </td>
         </tr>
-
-
-      </thead>
+      </tbody>
     </table>
   </div>
 </body>

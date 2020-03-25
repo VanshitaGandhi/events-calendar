@@ -1,27 +1,44 @@
+html {
+  font-family: Merriweather, serif;
+}
+
+td,
+th {
+  border: 1px solid #ccc;
+}
+
+tbody td {
+  height: 11em;
+}
+
+table {
+  min-width: 90em;
+}
+
 .grey {
   background-color: #f2f2f2;
-  border: 2px solid #666;
+  border: 1px solid #666;
   border-radius: 8px;
-  color: #666;
+  color: #333;
 }
 
 .red {
   background-color: #f2bcbc;
-  border: 2px solid #991919;
+  border: 1px solid #b92828;
   border-radius: 8px;
   color: #991919;
 }
 
 .purple {
   background-color: #d2d6f0;
-  border: 2px solid #38448e;
+  border: 1px solid #1d38da;
   border-radius: 8px;
   color: #38448e;
 }
 
 .green {
   background-color: #d1e0bf;
-  border: 2px solid #51603f;
+  border: 1px solid #6b7e54;
   border-radius: 8px;
   color: #51603f;
 }
