@@ -1,0 +1,27 @@
+.grey {
+  background-color: #f2f2f2;
+  border: 2px solid #666;
+  border-radius: 8px;
+  color: #666;
+}
+
+.red {
+  background-color: #f2bcbc;
+  border: 2px solid #991919;
+  border-radius: 8px;
+  color: #991919;
+}
+
+.purple {
+  background-color: #d2d6f0;
+  border: 2px solid #38448e;
+  border-radius: 8px;
+  color: #38448e;
+}
+
+.green {
+  background-color: #d1e0bf;
+  border: 2px solid #51603f;
+  border-radius: 8px;
+  color: #51603f;
+}
